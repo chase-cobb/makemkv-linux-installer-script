@@ -1,7 +1,7 @@
 # makemkv-linux-installer-script
-Simple script for installing MakeMKV on Ubunut based systems.
+Simple script for installing MakeMKV on Ubuntu based systems.
 
-To use this script, either clone the repository or download a zip version of the script.  
+To use this script, either get a release, clone the repository or download a zip version of the script.  
   
   
 Open terminal and cd to the directory of the script and run the following command.  
