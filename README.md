@@ -18,6 +18,6 @@ sudo sh makemkv_installer.sh 1.15.2
 When the installer stops for the end user license agreement:  
 * Press enter to view the license agreement
 * Press 'Q' to exit the license agreement
-* Type 'yes' and press enter to accect the agreement  
+* Type 'yes' and press enter to accept the agreement  
 
 Now wait a few minutes the source code to compile and be installed!
