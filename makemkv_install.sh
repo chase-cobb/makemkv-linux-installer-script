@@ -13,7 +13,7 @@ makemkv_bin_makefile_location=./makemkv-bin/makemkv-bin-${user_defined_version}
 makemkv_oss_makefile_location=./makemkv-oss/makemkv-oss-${user_defined_version}
 
 #install dependencies
-echo "Installing dependencies"
+echo '\n\n\n\nInstalling dependencies'
 sleep 3s
 apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev qtbase5-dev zlib1g-dev
 
@@ -22,7 +22,7 @@ mkdir ./makemkv-bin
 mkdir ./makemkv-oss
 
 #download MakeMKV-bin and MakeMKV-oss zips
-echo "Downloading and unpacking source"
+echo '\n\n\n\nDownloading and unpacking source'
 sleep 3s
 wget -O ./makemkv-bin/${makemkv_bin_tarball} ${makemkv_bin_url}
 
@@ -33,7 +33,7 @@ tar xzf ./makemkv-bin/${makemkv_bin_tarball} -C ./makemkv-bin
 tar xzf ./makemkv-oss/${makemkv_oss_tarball} -C ./makemkv-oss
 
 #make and install MakeMKV-bin
-echo "Starting install"
+echo '\n\n\n\nStarting install'
 sleep 3s
 cd ${makemkv_bin_makefile_location}
 ./configure
@@ -51,3 +51,5 @@ cd ../..
 #delete both MakeMKV folders
 rm -rf makemkv-bin
 rm -rf makemkv-oss
+
+echo '\n\n\n\nThe installer has finished and all files have been cleaned up. :)'
