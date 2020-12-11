@@ -10,11 +10,15 @@ Open terminal and cd to the directory of the script and run the following comman
 sudo chmod +x makemkv_installer.sh
 ```  
   
-  
-The script needs one argument for the version of makemkv you would like to install. For example, the command below will install version 1.15.2
+The script will automatically install the latest version of MakeMKV when run without any arguments.
+```sudo sh makemkv_installer.sh
+```  
+
+OPTIONAL : If users would like to install an old version, they may provide it as an argument. For example, the command below will install version 1.15.2
 ```
 sudo sh makemkv_installer.sh 1.15.2
 ```  
+
 When the installer stops for the end user license agreement:  
 * Press enter to view the license agreement
 * Press 'Q' to exit the license agreement
