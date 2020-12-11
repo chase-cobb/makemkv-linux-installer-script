@@ -11,7 +11,8 @@ sudo chmod +x makemkv_installer.sh
 ```  
   
 The script will automatically install the latest version of MakeMKV when run without any arguments.
-```sudo sh makemkv_installer.sh
+```
+sudo sh makemkv_installer.sh
 ```  
 
 OPTIONAL : If users would like to install an old version, they may provide it as an argument. For example, the command below will install version 1.15.2
