@@ -19,7 +19,7 @@ search_string=`echo ${download_page_text} | grep -o "MakeMKV [0-9]\{1\}\.\?[0-9]
 latest_version=`set -- $search_string; echo $2`
 latest_version_print="${latest_version} is the latest version!"
 echo ${latest_version_print}
-install_version=1.15.4
+install_version=1.16.0
 download_url_bin=https://www.makemkv.com/download/makemkv-bin-
 download_url_oss=https://www.makemkv.com/download/makemkv-oss-
 fi
